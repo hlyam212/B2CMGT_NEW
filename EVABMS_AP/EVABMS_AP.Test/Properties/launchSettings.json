@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "B2CMGT_AP_NEW.Test": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51976;http://localhost:51977"
+    }
+  }
+}

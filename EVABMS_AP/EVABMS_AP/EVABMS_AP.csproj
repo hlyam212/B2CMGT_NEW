@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>annotations</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="nlog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utility\CommonHelper\CommonHelper.csproj" />
+    <ProjectReference Include="..\..\Utility\OracleHelper\OracleHelper\OracleHelper.csproj" />
+    <ProjectReference Include="..\..\Utility\SeriLogHelper\SeriLogHelper.csproj" />
+    <ProjectReference Include="..\..\Utility\UtilityHelper\UtilityHelper.csproj" />
+    <ProjectReference Include="..\..\Utility\WebCommonHelper\WebCommonHelper.csproj" />
+    <ProjectReference Include="..\Authorization\EVABMS.AP.Authorization.Infrastructure\EVABMS.AP.Authorization.Infrastructure.csproj" />
+    <ProjectReference Include="..\Connecting String\EVABMS.AP.ConnectingString.Domain\EVABMS.AP.ConnectingString.Domain.csproj" />
+    <ProjectReference Include="..\Connecting String\EVABMS.AP.ConnectingString.Infrastructure\EVABMS.AP.ConnectingString.Infrastructure.csproj" />
+    <ProjectReference Include="..\EVABMS_AP.Interface\EVABMS_AP.Interface.csproj" />
+    <ProjectReference Include="..\Lottery\EVABMS.AP.Lottery.Domain\EVABMS.AP.Lottery.Domain.csproj" />
+    <ProjectReference Include="..\Lottery\EVABMS.AP.Lottery.Infrastructure\EVABMS.AP.Lottery.Infrastructure.csproj" />
+    <ProjectReference Include="..\Parameter Setting\EVABMS.AP.ParameterSetting.Domain\EVABMS.AP.Parameter.Domain.csproj" />
+    <ProjectReference Include="..\Parameter Setting\EVABMS.AP.ParameterSetting.Infrastructure\EVABMS.AP.Parameter.Infrastructure.csproj" />
+    <ProjectReference Include="..\Survey\EVABMS.AP.Survey.Domain\EVABMS.AP.Survey.Domain.csproj" />
+    <ProjectReference Include="..\Survey\EVABMS.AP.Survey.Infrastructure\EVABMS.AP.Survey.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" appsettings_1staging_1json__JsonSchema="https://json.schemastore.org/azure-deviceupdate-import-manifest-5.0.json" /></VisualStudio></ProjectExtensions>
+
+</Project>

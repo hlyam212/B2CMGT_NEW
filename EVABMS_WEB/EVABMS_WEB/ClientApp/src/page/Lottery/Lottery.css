@@ -1,0 +1,11 @@
+﻿.float-right {
+  float: right;
+}
+
+Button {
+  margin-bottom: 20px;
+}
+.tableforlottery {
+  width: 70%;
+  height: 700px;
+}

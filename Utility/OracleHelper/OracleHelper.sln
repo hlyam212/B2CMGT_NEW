@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleHelper", "OracleHelper\OracleHelper.csproj", "{C054E50A-1781-4B2E-AE70-FECF86317E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C054E50A-1781-4B2E-AE70-FECF86317E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C054E50A-1781-4B2E-AE70-FECF86317E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C054E50A-1781-4B2E-AE70-FECF86317E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C054E50A-1781-4B2E-AE70-FECF86317E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {220CF2B4-F23D-4FAE-97DD-39A4DDCE7B67}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sd1tfs01:8080/tfs/p11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OracleHelper\\OracleHelper.csproj
+		SccProjectName1 = OracleHelper
+		SccLocalPath1 = OracleHelper
+	EndGlobalSection
+EndGlobal

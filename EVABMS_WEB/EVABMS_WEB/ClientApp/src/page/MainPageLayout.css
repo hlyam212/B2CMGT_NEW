@@ -1,0 +1,11 @@
+﻿#outer-container {
+    height: '100%';
+}
+
+#page-wrap {
+    padding: '1rem 0';
+}
+
+    #page-wrap .container {
+        max-width: 91%;
+    }

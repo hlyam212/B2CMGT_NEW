@@ -1,0 +1,7 @@
+﻿/*opacity是設定遮罩透明度的,可以自己調節*/
+.title-div {
+    padding: 20px;
+    background-color: orange;
+    border-radius: 50px;
+    margin-bottom: 2em;
+}

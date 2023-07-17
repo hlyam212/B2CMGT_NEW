@@ -1,0 +1,23 @@
+﻿#PS02div button {
+    margin-right: 20px;
+}
+#PS02Table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+    #PS02Table td:first-child {
+        width: 20%;
+    }
+
+    #PS02Table td:last-child {
+        width: 80%;
+    }
+
+    #PS02Table input {
+        width: 100%;
+    }
+
+#PS02divAlertArea {
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+.tableforrolequery {
+  height: 758px;
+}
+.tableforrolelist {
+  height: 700px;
+}
+.rgt-cell:not(.rgt-row-edit):not(.rgt-row-not-selectable) {
+  cursor: pointer;
+}
+
+.rgt-row-selected {
+  background: orange;
+}

@@ -1,0 +1,15 @@
+﻿#AuthArea .row {
+    margin-bottom: 20px;
+}
+
+#AU00Table {
+    border: white;
+}
+
+    #AU00Table td:first-child {
+        width: 20%;
+    }
+
+/*DropdownButton {
+    margin-bottom: 20px;
+}*/

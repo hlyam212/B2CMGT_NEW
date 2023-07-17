@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Utility\OracleHelper\OracleHelper\OracleHelper.csproj" />
+    <ProjectReference Include="..\..\..\Utility\UtilityHelper\UtilityHelper.csproj" />
+    <ProjectReference Include="..\..\Parameter Setting\EVABMS.AP.ParameterSetting.Domain\EVABMS.AP.Parameter.Domain.csproj" />
+    <ProjectReference Include="..\..\Parameter Setting\EVABMS.AP.ParameterSetting.Infrastructure\EVABMS.AP.Parameter.Infrastructure.csproj" />
+    <ProjectReference Include="..\EVABMS.AP.Survey.Domain\EVABMS.AP.Survey.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

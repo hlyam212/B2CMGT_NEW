@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CommonHelper": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51970;http://localhost:51972"
+    }
+  }
+}
